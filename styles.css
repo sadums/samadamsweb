@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #222222;
+    padding: 30px;
+    text-align: right;
+    box-shadow: 0 0 5px #000;
+}
+
+header li{
+    display: inline;
+    padding-right: 50px;
+}
+
+header li a{
+    color: #fff;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+header li a:hover{
+    color:#b6b6b6;
+}
+
+.logo{
+    width: fit-content;
+    height: 50px;
+    float: left;
+    margin-top:-0.5%;
+}
